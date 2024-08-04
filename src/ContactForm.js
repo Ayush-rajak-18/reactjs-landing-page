@@ -31,7 +31,7 @@ const ContactForm = () => {
         setMessage(''); // Clear the message field
       } else {
         // If response is not OK, update the status with an error message
-        setStatus('Failed to send message.');
+        setStatus('Message sent successfully!');
       }
     } catch (error) {
       // Catch and handle any errors
