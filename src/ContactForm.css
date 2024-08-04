@@ -3,7 +3,7 @@
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    max-width: 600px;
+    max-width: 100%;
     margin: 0 auto;
   }
   
@@ -38,3 +38,16 @@
     margin-top: 10px;
     font-weight: bold;
   }
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+    height: auto;
+  }
+
+  .flex-item {
+    margin: 10px 0;
+  }
+}
